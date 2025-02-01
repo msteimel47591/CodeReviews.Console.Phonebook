@@ -17,6 +17,6 @@ internal class Program
             }
         }
 
-        View.MainMenu mainMenu = new();
+        View.MainMenu.Show();
     }
 }

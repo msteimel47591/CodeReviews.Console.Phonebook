@@ -3,7 +3,7 @@ using PhoneBook.Control;
 namespace PhoneBook.View;
 internal class MainMenu
 {
-    public MainMenu()
+    public static void Show()
     {
         bool exit = false;
         while (!exit)

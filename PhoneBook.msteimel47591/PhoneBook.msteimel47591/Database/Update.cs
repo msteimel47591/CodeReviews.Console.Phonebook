@@ -4,10 +4,10 @@ namespace PhoneBook.Database;
 
 internal class Update
 {
-    internal static void Contact(Contact contact)
+    internal static void Contact(Contact person)
     {
         using var db = new Instance();
-        db.Update(contact);
+        db.Update(person);
         db.SaveChanges();
     }
 }
